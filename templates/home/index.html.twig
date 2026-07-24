@@ -1,0 +1,12 @@
+{% extends "partials/base.html.twig" %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+    <div {{ react_component('Hello', { 'fullName': 'Vite & Stimulus' }) }}></div>
+
+    <div {{ react_component('Hello', { 'fullName': 'Allistair & Stimulus' }) }}></div>
+
+
+{% endblock %}

@@ -35,6 +35,15 @@
             "migrations/.gitignore"
         ]
     },
+    "pentatrion/vite-bundle": {
+        "version": "8.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "6.5",
+            "ref": "3a6673f248f8fc1dd364dadfef4c5b381d1efab6"
+        }
+    },
     "phpunit/phpunit": {
         "version": "13.2",
         "recipe": {
@@ -268,6 +277,18 @@
         "files": [
             "config/packages/twig.yaml",
             "templates/base.html.twig"
+        ]
+    },
+    "symfony/ux-react": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "2.9",
+            "ref": "adec905b8d643c7e15a3a8d070c58ff3021288c6"
+        },
+        "files": [
+            "assets/react/controllers/Hello.jsx"
         ]
     },
     "symfony/ux-turbo": {
